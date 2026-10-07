@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Happy 20th Birthday Shreya 🎂</title>
+
+  <meta
+    name="description"
+    content="A special birthday surprise for Shreya."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Background decorations -->
+  <div class="background-hearts" aria-hidden="true">
+    <span>♡</span>
+    <span>✦</span>
+    <span>♡</span>
+    <span>✧</span>
+    <span>♡</span>
+    <span>✦</span>
+    <span>♡</span>
+    <span>✧</span>
+  </div>
+
+  <!-- Opening screen -->
+  <section class="welcome-screen" id="welcomeScreen">
+
+    <div class="welcome-content">
+
+      <div class="small-label">
+        ✨ A little surprise for someone special ✨
+      </div>
+
+      <h1>
+        Something<br />
+        <span>Beautiful</span>
+        <br />
+        Awaits...
+      </h1>
+
+      <p>
+        There is a special reason to celebrate today.
+      </p>
+
+      <button class="surprise-button" id="surpriseButton">
+        Open Your Surprise
+        <span>🎁</span>
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- Main birthday page -->
+  <main class="birthday-page" id="birthdayPage">
+
+    <!-- Hero -->
+    <section class="hero section">
+
+      <div class="hero-glow"></div>
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          ✨ TODAY IS YOUR DAY ✨
+        </div>
+
+        <h2>
+          Happy Birthday
+          <span>Shreya</span>
+        </h2>
+
+        <div class="age">
+          <span class="age-number">20</span>
+          <span class="age-text">YEARS<br />YOUNG</span>
+        </div>
+
+        <p class="hero-description">
+          Welcome to a brand new chapter filled with
+          dreams, laughter, adventures and beautiful memories.
+        </p>
+
+        <div class="scroll-hint">
+          <span>Scroll to discover your surprise</span>
+          <div class="arrow">↓</div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Birthday message -->
+    <section class="message-section section">
+
+      <div class="section-label">
+        💌 A MESSAGE FOR YOU
+      </div>
+
+      <div class="letter">
+
+        <div class="letter-decoration">♡</div>
+
+        <h3>
+          Dear Shreya,
+        </h3>
+
+        <p>
+          Today isn't just another birthday.
+          Today marks the beginning of your beautiful
+          twenties.
+        </p>
+
+        <p>
+          Twenty years of memories, smiles, challenges,
+          achievements and countless little moments
+          that made you who you are today.
+        </p>
+
+        <p>
+          May this new chapter bring you everything
+          your heart wishes for — happiness that lasts,
+          people who truly care, dreams that come true,
+          and memories you'll always smile about.
+        </p>
+
+        <p class="signature">
+          Keep smiling. Keep shining. ✨
+          <br />
+          Your best chapters are still ahead.
+        </p>
+
+        <div class="letter-decoration bottom">♡</div>
+
+      </div>
+
+    </section>
+
+
+    <!-- 20 things -->
+    <section class="things-section section">
+
+      <div class="section-label">
+        🌸 CHAPTER 20
+      </div>
+
+      <h3 class="section-title">
+        20 little reasons<br />
+        <span>to celebrate you</span>
+      </h3>
+
+      <p class="section-subtitle">
+        Tap the cards and discover a little birthday love.
+      </p>
+
+      <div class="cards-grid" id="cardsGrid">
+
+        <button class="reason-card" data-message="Your smile can make an ordinary day feel special.">
+          <span>01</span>
+          <strong>Smile</strong>
+        </button>
+
+        <button class="reason-card" data-message="You have a beautiful way of making people feel comfortable around you.">
+          <span>02</span>
+          <strong>Kindness</strong>
+        </button>
+
+        <button class="reason-card" data-message="You deserve to chase every dream that makes your heart excited.">
+          <span>03</span>
+          <strong>Dreams</strong>
+        </button>
+
+        <button class="reason-card" data-message="Never stop being the wonderfully unique person you are.">
+          <span>04</span>
+          <strong>Unique</strong>
+        </button>
+
+        <button class="reason-card" data-message="Your presence makes moments more memorable.">
+          <span>05</span>
+          <strong>Presence</strong>
+        </button>
+
+        <button class="reason-card" data-message="May you always find reasons to laugh until your cheeks hurt.">
+          <span>06</span>
+          <strong>Laughter</strong>
+        </button>
+
+        <button class="reason-card" data-message="You have more strength inside you than you sometimes realize.">
+          <span>07</span>
+          <strong>Strength</strong>
+        </button>
+
+        <button class="reason-card" data-message="Twenty looks absolutely beautiful on you.">
+          <span>08</span>
+          <strong>Chapter 20</strong>
+        </button>
+
+      </div>
+
+      <div class="card-message" id="cardMessage">
+        <span>♡</span>
+        <p>Choose a card...</p>
+      </div>
+
+    </section>
+
+
+    <!-- Cake -->
+    <section class="cake-section section">
+
+      <div class="section-label">
+        🎂 MAKE A WISH
+      </div>
+
+      <h3 class="section-title">
+        Make a wish,<br />
+        <span>Shreya.</span>
+      </h3>
+
+      <p class="section-subtitle">
+        You only turn 20 once. Make it count.
+      </p>
+
+      <div class="cake-wrapper">
+
+        <div class="candles" id="candles">
+
+          <div class="candle"><i></i></div>
+          <div class="candle"><i></i></div>
+          <div class="candle"><i></i></div>
+          <div class="candle"><i></i></div>
+          <div class="candle"><i></i></div>
+          <div class="candle"><i></i></div>
+          <div class="candle"><i></i></div>
+          <div class="candle"><i></i></div>
+          <div class="candle"><i></i></div>
+          <div class="candle"><i></i></div>
+
+        </div>
+
+        <div class="cake">
+
+          <div class="cake-top"></div>
+
+          <div class="cake-body">
+            <div class="cake-drip"></div>
+          </div>
+
+          <div class="cake-bottom"></div>
+
+        </div>
+
+        <div class="plate"></div>
+
+      </div>
+
+      <button class="wish-button" id="wishButton">
+        🕯️ Blow Out the Candles
+      </button>
+
+      <div class="wish-message" id="wishMessage">
+        ✨ Make your wish... ✨
+      </div>
+
+    </section>
+
+
+    <!-- Final -->
+    <section class="final-section section">
+
+      <div class="final-content">
+
+        <div class="final-sparkle">✦</div>
+
+        <p class="final-small">
+          WELCOME TO CHAPTER
+        </p>
+
+        <h3>
+          20
+        </h3>
+
+        <p class="final-title">
+          Happy Birthday,
+          <span>Shreya!</span>
+        </p>
+
+        <p class="final-message">
+          May your twenties be filled with
+          unforgettable adventures, genuine happiness,
+          endless laughter and dreams coming true.
+        </p>
+
+        <div class="final-hearts">
+          ♡ &nbsp; ♡ &nbsp; ♡
+        </div>
+
+        <p class="final-signature">
+          With lots of love ❤️
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Confetti -->
+  <div class="confetti-container" id="confetti"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
